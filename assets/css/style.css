@@ -795,7 +795,8 @@ section {
 
   #about .about-img img {
     margin-left: 0;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
+    margin-bottom: 20px;
   }
 }
 
@@ -841,6 +842,7 @@ section {
 --------------------------------*/
 #services {
   padding: 40px 0;
+  background: #f1f1f1;
 }
 
 #services .box {
