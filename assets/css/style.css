@@ -133,6 +133,8 @@ h6 {
   z-index: 997;
   background: #fff;
   box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
+  padding-top: 33px;
+  padding-bottom: 42px;
 }
 
 #header #logo h1 {
@@ -526,7 +528,7 @@ section {
   content: "";
   position: absolute;
   display: block;
-  width: 50px;
+  width: 78px;
   height: 3px;
   background: #bcbdc0;
   bottom: 0;
@@ -775,7 +777,7 @@ section {
 /* About Section
 --------------------------------*/
 #about {
-  padding: 60px 0 30px 0;
+  padding: 80px 0 80px 0;
 }
 
 #about .about-img {
@@ -841,8 +843,13 @@ section {
 /* Services Section
 --------------------------------*/
 #services {
-  padding: 40px 0;
-  background: #f1f1f1;
+  padding: 80px 0;
+  background: #f3f3f3;
+  padding-bottom: 85px;
+}
+
+#all-services{
+  background-color: #fff !important;
 }
 
 #services .box {
@@ -920,6 +927,7 @@ section {
 --------------------------------*/
 #clients {
   padding: 30px 0;
+  padding-top: 50px;
 }
 
 #clients img {
@@ -1205,7 +1213,7 @@ section {
 #call-to-action {
   background: #9a9da5;
   background-size: cover;
-  padding: 40px 0;
+  padding: 78px 0;
 }
 
 #call-to-action .cta-title {
@@ -1265,12 +1273,13 @@ section {
 --------------------------------*/
 #team {
   background: #fff;
-  padding: 30px 0 0 0;
+  padding: 55px 0 47px 0;
 }
 
 #team .member {
   text-align: center;
   margin-bottom: 20px;
+  padding: 20px;
 }
 
 #team .member .pic {
@@ -1283,7 +1292,7 @@ section {
 }
 
 #team .member .details {
-  background: #367bbf;
+  background: #a3a3a3;
   color: #fff;
   padding: 15px;
   border-radius: 0 0 3px 3px;
